@@ -1,0 +1,219 @@
+/*
+ * These styles re-set default Salesforce styles for components that have not
+ * received custom styles
+ */
+
+.cPORTAL_NewsletterSubmission {
+  font-size: .875rem;
+}
+
+.cPORTAL_NewsletterSubmission input {
+  font-size: 14px;
+  padding: 6px;
+}
+
+.cPORTAL_NewsletterSubmission .slds-p-around_large h3 {
+  font-size: 20px;
+}
+.cPORTAL_NewsletterSubmission .slds-size_1-of-4 h3 {
+  font-size: 16px;
+}
+.cPORTAL_NewsletterSubmission h3.slds-text-heading_small {
+  font-size: 16px;
+}
+.cPORTAL_NewsletterSubmission .slds-form-element {
+  margin-bottom: 1rem;
+}
+.cPORTAL_NewsletterSubmission .slds-button {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  padding-top: var(--sds-c-button-spacing-block-start, 0);
+  padding-right: var(--sds-c-button-spacing-inline-end, 0);
+  padding-bottom: var(--sds-c-button-spacing-block-end, 0);
+  padding-left: var(--sds-c-button-spacing-inline-start, 0);
+  background-image: none;
+  background-position: initial;
+  background-size: initial;
+  background-repeat: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-color: var(--sds-c-button-color-background, transparent);
+  background-clip: border-box;
+  border-color: var(--sds-c-button-color-border, transparent);
+  border-style: solid;
+  border-width: var(--sds-c-button-sizing-border, var(--lwc-borderWidthThin,1px));
+  border-radius: var(--sds-c-button-radius-border, var(--lwc-buttonBorderRadius,0.25rem));
+  box-shadow: var(--sds-c-button-shadow);
+  line-height: 30px;
+  text-decoration: none;
+  color: var(--sds-c-button-text-color, var(--lwc-brandAccessible,#2574A9));
+  appearance: none;
+  white-space: normal;
+  user-select: none;
+}
+.cPORTAL_NewsletterSubmission .slds-button_neutral {
+  padding-left: var(--sds-c-button-neutral-spacing-inline-start, var(--lwc-spacingMedium,1rem));
+  padding-right: var(--sds-c-button-neutral-spacing-inline-end, var(--lwc-spacingMedium,1rem));
+  text-align: center;
+  font-size: 14px;
+  vertical-align: middle;
+  justify-content: center;
+  transition: border 0.15s linear 0s;
+  background-color: var(--sds-c-button-neutral-color-background, var(--lwc-buttonColorBackgroundPrimary,rgb(255, 255, 255)));
+  border-color: var(--sds-c-button-neutral-color-border, var(--lwc-colorBorderPrimary,rgb(217, 219, 221)));
+}
+.cPORTAL_NewsletterSubmission .slds-button_brand {
+  padding-left: var(--sds-c-button-brand-spacing-inline-start, var(--lwc-spacingMedium,1rem));
+  padding-right: var(--sds-c-button-brand-spacing-inline-end, var(--lwc-spacingMedium,1rem));
+  text-align: center;
+  font-size: 14px;
+  vertical-align: middle;
+  justify-content: center;
+  transition: border .15s linear;
+  background-color: var(--sds-c-button-brand-color-background, var(--lwc-brandAccessible,#2574A9));
+  border-color: var(--sds-c-button-brand-color-border, var(--lwc-brandAccessible,#2574A9));
+  color: var(--sds-c-button-brand-text-color, var(--lwc-colorTextBrandPrimary,#FFFFFF));
+}
+.cPORTAL_NewsletterSubmission .slds-align_absolute-center,
+.cPORTAL_NewsletterSubmission .slds-align--absolute-center {
+  display: flex;
+  place-content: center;
+  align-items: center;
+  margin: auto;
+}
+.cPORTAL_NewsletterSubmission .slds-button-group-list .slds-button {
+  border-color: #d4d4d4;
+  box-sizing: border-box;
+  color: #696969;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+}
+.cPORTAL_NewsletterSubmission .slds-button-group-list .slds-button svg {
+  width: 15px;
+  height: 15px;
+}
+.cPORTAL_NewsletterSubmission .slds-button__icon {
+  border-color: rgb(107, 109, 112);
+  fill: currentcolor;
+}
+.cPORTAL_NewsletterSubmission .slds-button_icon,
+.cPORTAL_NewsletterSubmission .slds-button--icon,
+.cPORTAL_NewsletterSubmission .slds-button_icon-inverse,
+.cPORTAL_NewsletterSubmission .slds-button--icon-inverse,
+.cPORTAL_NewsletterSubmission .slds-button_icon-container,
+.cPORTAL_NewsletterSubmission .slds-button--icon-container,
+.cPORTAL_NewsletterSubmission .slds-button_icon-border,
+.cPORTAL_NewsletterSubmission .slds-button--icon-border,
+.cPORTAL_NewsletterSubmission .slds-button_icon-border-filled,
+.cPORTAL_NewsletterSubmission .slds-button--icon-border-filled,
+.cPORTAL_NewsletterSubmission .slds-button_icon-border-inverse,
+.cPORTAL_NewsletterSubmission .slds-button--icon-border-inverse,
+.cPORTAL_NewsletterSubmission .slds-button_icon-more,
+.cPORTAL_NewsletterSubmission .slds-button--icon-more,
+.cPORTAL_NewsletterSubmission .slds-button_icon-error,
+.cPORTAL_NewsletterSubmission .slds-button--icon-error {
+  line-height: var(--lwc-lineHeightReset,1);
+  vertical-align: middle;
+  justify-content: center;
+  color: var(--lwc-colorTextIconDefault,rgb(107, 109, 112));
+  flex-shrink: 0;
+}
+.cPORTAL_NewsletterSubmission .slds-button_success[disabled],
+.cPORTAL_NewsletterSubmission .slds-button_success:disabled,
+.cPORTAL_NewsletterSubmission .slds-button--success[disabled],
+.cPORTAL_NewsletterSubmission .slds-button--success:disabled {
+  background-color: var(--sds-c-button-success-color-background-disabled, var(--lwc-brandDisabled,rgb(201, 199, 197)));
+  border-color: var(--sds-c-button-success-color-border-disabled, var(--lwc-brandDisabled,rgb(201, 199, 197)));
+  color: var(--sds-c-button-success-text-color-disabled, var(--lwc-colorTextButtonBrandDisabled,rgb(255, 255, 255)));
+}
+.cPORTAL_NewsletterSubmission .slds-button-group-list li:first-child .slds-button,
+.cPORTAL_NewsletterSubmission .slds-button-group .slds-button:first-child {
+  border-radius: var(--lwc-buttonBorderRadius,0.25rem) 0 0 var(--lwc-buttonBorderRadius,0.25rem);
+}
+.cPORTAL_NewsletterSubmission .slds-button_success,
+.cPORTAL_NewsletterSubmission .slds-button--success {
+  padding-left: var(--sds-c-button-success-spacing-inline-start, var(--lwc-spacingMedium,1rem));
+  padding-right: var(--sds-c-button-success-spacing-inline-end, var(--lwc-spacingMedium,1rem));
+  text-align: center;
+  vertical-align: middle;
+  justify-content: center;
+  transition: border 0.15s linear 0s;
+  background-color: var(--sds-c-button-success-color-background, var(--lwc-colorBackgroundButtonSuccess,rgb(75, 202, 129)));
+  border-color: var(--sds-c-button-success-color-border, var(--lwc-colorBorderSuccess,rgb(75, 202, 129)));
+  color: var(--sds-c-button-success-text-color, var(--lwc-colorTextDefault,#333));
+}
+
+.cPORTAL_NewsletterSubmission .slds-text-heading_medium,
+.cPORTAL_NewsletterSubmission .slds-text-heading--medium {
+  font-weight: var(--lwc-fontWeightLight,300);
+  font-size: var(--lwc-fontSize7,1.25rem);
+  line-height: var(--lwc-lineHeightHeading,1.25);
+}
+
+.cPORTAL_NewsletterSubmission h1,
+.cPORTAL_NewsletterSubmission h2,
+.cPORTAL_NewsletterSubmission h3,
+.cPORTAL_NewsletterSubmission h4,
+.cPORTAL_NewsletterSubmission h5,
+.cPORTAL_NewsletterSubmission h6 {
+  color: initial;
+  text-align: left;
+}
+
+.cPORTAL_NewsletterSubmission body,
+.cPORTAL_NewsletterSubmission *:before,
+.cPORTAL_NewsletterSubmission *:after {
+  all: unset;
+}
+
+.cPORTAL_NewsletterSubmission .slds-select {
+  appearance: menulist;
+  font-size: 16px;
+  height: auto;
+  padding: 6px;
+}
+
+
+.cPORTAL_NewsletterListingSection .slds-modal__container {
+  font-size: 1.3rem;
+}
+
+.cPORTAL_NewsletterListingSection .slds-modal__container h2 {
+  font-size: 1.4rem;
+}
+.cPORTAL_NewsletterListingSection .slds-modal__container p {
+  font-size: 13px;
+}
+
+.cPORTAL_NewsletterListingSection .slds-modal__container ul, 
+.cPORTAL_NewsletterListingSection .slds-modal__container ol {
+  padding: 0;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.cPORTAL_NewsletterListingSection .slds-modal__container .slds-form-element__label {
+  font-size: 13px;
+}
+
+.cPORTAL_NewsletterListingSection .slds-modal__container .slds-listbox__option {
+  font-size: 12px;
+}
+
+.cPORTAL_NewsletterListingSection .slds-modal__container .slds-button_icon-inverse.slds-modal__close {
+  width: var(--lwc-squareIconMediumBoundary,2rem);
+  height: var(--lwc-squareIconMediumBoundary,2rem);
+  position: absolute;
+  top: -2.5rem;
+  right: -0.5rem;
+}
+
+.cPORTAL_NewsletterListingSection .slds-modal__container .slds-button_icon-inverse.slds-modal__close svg {
+  color: white;
+}
+
+.cPORTAL_NewsletterSubmission .slds-p-around_large.slds-size_3-of-12:nth-of-type(2) .selectable .slds-rich-text-editor__output span p {
+  line-height: 1.2;
+}

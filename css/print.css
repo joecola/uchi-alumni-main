@@ -1,0 +1,146 @@
+@media print {
+
+  @page {
+    size: 480mm 686mm !important;
+    margin: 50mm !important;
+  }
+
+  html {
+    font-size: 110% !important;
+  }
+
+
+  @-moz-document url-prefix() {
+    @page {
+      margin: 10mm 0mm 5mm 0mm !important;
+    }
+    html {
+      transform: scale(0.75) !important;
+      transform-origin: center 10% !important;
+      font-size: 70% !important;
+    }
+  }
+
+  nav.secondary {
+    height: auto !important;
+    margin-bottom: 45px !important;
+  }
+
+  nav.secondary .print-logo {
+    display: block !important;
+  }
+
+  .secondary .supplemental,
+  nav.secondary .nav-item,
+  nav.secondary .search,
+  nav.secondary .make-a-gift,
+  nav.primary,
+  nav.mobile,
+  footer,
+  .breadcrumb, button, a.button,
+  .button.cta, button.cta, .button.noimage, button.noimage, .large-cta .button.cta,
+  .button[type="submit"], .button[type="reset"], .button[type="upload"],
+  .large-cta, .cta-block, .large-promo, .subpage-nav-block, .newsletter, .share-subwidget,
+  .privacy-bar, .filter-label, .profilePicture, .logout-trigger, .news-filters,
+  .event-block.tab-target.filters, .tabbed-nav, .giving-hero.mid-page .hero-right::after {
+    display: none !important;
+  }
+  .travel-listings .cta-block, .alumni-gallery-listings .cta-block {
+    display: flex !important;
+  }
+
+  nav.primary div, nav.secondary div, .breadcrumb, .widget .content, .subnav .content, footer .content, .event-card, .event-status-card {
+    max-width: 100% !important
+  }
+  .gallery-slideshow .slides, .slideshow .slides {
+    padding: 0 !important;
+  }
+  .slick-track {
+    width: 100% !important;
+  }
+  .slideshow .slides .slide {
+    width: 22% !important;
+    padding-left: 1% !important;
+  }
+  .slideshow .slides .slide:nth-child(n+5) {
+    display: none !important;
+  }
+  .news-listings .listings .news-item {
+    max-width: none !important;
+  }
+
+  nav.secondary,
+  div, a, span, figure {
+    background-color: #FFFFFF !important;
+  }
+
+  nav.secondary div.main {
+    max-height: 40px !important;
+  }
+
+  .print-logo {
+    display: block !important;
+  }
+  .print-logo img {
+    width: 55% !important;
+  }
+
+  h1, h2, h3, h4, h5, h6, textarea, input, select,
+  ol, ul, p, li, a, span, blockquote, label, figcaption,
+  .content-filter .filter-label,
+  .columns .content .column-body {
+    color: #000 !important;
+  }
+
+  .top-story .content {
+    height: auto !important;
+    max-height: none !important;
+    width: 100% !important;
+    padding: 0 !important;
+  }
+  .top-story .content:before,
+  .top-story .content:after {
+    content: none !important;
+  }
+
+  .title-block h1, h1 {
+    font-size: 50pt !important;
+    line-height: 1.4 !important;
+    margin-bottom: 20px !important;
+  }
+
+  .title-block h2, h2 {
+    font-size: 40pt !important;
+    line-height: 1.4 !important;
+  }
+
+  .title-block p {
+    font-size: 16pt !important;
+    line-height: 1.4 !important;
+  }
+
+  .bio-block h2::before {
+    border-bottom: 2px solid #000 !important;
+  }
+
+  .bio-block h2 span,
+  .award-winners-block .with-rule span {
+    background-color: white !important;
+  }
+
+  .award-winners-block .with-rule:before {
+    background-color: #000 !important;
+  }
+
+  .bio-block h3 {
+    font-size: 1.4pt !important;
+    line-height: 1.4 !important;
+  }
+  .body .content .main {
+    max-width: 100% !important;
+  }
+  .featured-stories {
+    flex-wrap: nowrap !important;
+  }
+
+}

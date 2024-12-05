@@ -1,0 +1,44 @@
+/**
+ * Template - Copy this file and rename it when starting on a new
+ * part of the site. The Colors and Coding Style example at the top
+ * can be removed after you have done the bulk of the theming.
+ */
+
+
+/* Colors
+ *
+ * Black:      #000000;
+ * Blue:       #0070E0;
+ * Light-blue: #F1F9FF;
+ * Dark-Grey:  #333333;
+ * Med-Grey:   #888686;
+ * Light-Grey: #DDDBDB;
+ * Orange:     #D07335;
+ * Pink:       #FBF6F6;
+ * Red:        #800000;
+ * White:      #FFFFFF;
+ *
+ */
+
+/* Coding style example / responsive approach
+ *
+ * Use pixels for most things, rems for fonts, unitless for line height.
+ * Fonts have been reset so 1rem = 10px, so 1.6rem = 16px.
+ *
+ */
+
+/* Default - Mobile */
+p {
+  font-size: 1.4rem;
+}
+
+/* Tablet */
+@media (min-width: 768px), only print and (max-width: 768px) {
+  p { font-size: 1.8rem; }
+}
+
+/* Desktop */
+@media (min-width: 1170px) {
+  p { font-size: 2.0rem; }
+}
+
